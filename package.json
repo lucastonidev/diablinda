@@ -1,0 +1,40 @@
+{
+  "name": "diablinda",
+  "version": "1.0.0",
+  "description": "Ferramenta OSINT moderna em JavaScript puro (Node.js ESM) para checagem de e-mails em múltiplos serviços com extração de metadados ricos.",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "diablinda": "./bin/diablinda.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./modules": "./src/modules/index.js",
+    "./server": "./src/server/index.js"
+  },
+  "scripts": {
+    "start": "node bin/diablinda.js",
+    "cli": "node bin/diablinda.js",
+    "server": "node bin/diablinda.js --server",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "osint",
+    "holehe",
+    "diablinda",
+    "email-checker",
+    "reconnaissance",
+    "cybersecurity",
+    "investigation",
+    "metadata-extraction",
+    "javascript",
+    "nodejs",
+    "esm"
+  ],
+  "author": "Diablinda Contributors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+.env
+dist/
+coverage/
+.idea/
+.vscode/
+prompts.md
+prompt.md
+bugs.md
+modules.md
